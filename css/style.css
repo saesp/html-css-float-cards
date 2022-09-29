@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+    font-size: 15px;
+}
+
+header h1{
+    margin: 20px auto 40px;
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+}
+
+section{
+    content: "";
+    display: table;
+    clear: both;
+    color: white;
+    margin: auto;
+}
+
+.card{
+    float: left;
+    max-width: 100%;
+    padding: 5px 20px;
+    margin: 20px 10px 20px;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.email{
+    color: rgb(0, 94, 255);
+}
