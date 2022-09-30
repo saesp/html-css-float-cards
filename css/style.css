@@ -8,6 +8,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    font-family: "Fredoka", Times, serif;
 }
 
 
@@ -20,7 +21,6 @@ body{
 header h1{
     margin: 25px auto 40px;
     text-align: center;
-    font-family: "Fredoka", Times, serif;
     font-size: 35px;
     color: rgb(252, 26, 166);
 }
@@ -31,11 +31,10 @@ header p{
 }
 
 
-section{
+section/*::after*/{
     content: "";
     display: table;
     clear: both;
-    color: white;
     margin: auto;
 }
 
@@ -66,9 +65,11 @@ section{
 .data{
     float: left;
     margin: 15px 60px 15px auto;
+    color: white;
 }
 
 
 .email{
     color: rgb(0, 94, 255);
+    text-decoration: none;
 }
